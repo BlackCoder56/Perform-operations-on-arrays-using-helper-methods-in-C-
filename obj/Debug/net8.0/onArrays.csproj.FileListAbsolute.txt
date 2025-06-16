@@ -1,0 +1,14 @@
+/home/elisha/Desktop/C#/projects/performingOperations/onArrays/bin/Debug/net8.0/onArrays
+/home/elisha/Desktop/C#/projects/performingOperations/onArrays/bin/Debug/net8.0/onArrays.deps.json
+/home/elisha/Desktop/C#/projects/performingOperations/onArrays/bin/Debug/net8.0/onArrays.runtimeconfig.json
+/home/elisha/Desktop/C#/projects/performingOperations/onArrays/bin/Debug/net8.0/onArrays.dll
+/home/elisha/Desktop/C#/projects/performingOperations/onArrays/bin/Debug/net8.0/onArrays.pdb
+/home/elisha/Desktop/C#/projects/performingOperations/onArrays/obj/Debug/net8.0/onArrays.GeneratedMSBuildEditorConfig.editorconfig
+/home/elisha/Desktop/C#/projects/performingOperations/onArrays/obj/Debug/net8.0/onArrays.AssemblyInfoInputs.cache
+/home/elisha/Desktop/C#/projects/performingOperations/onArrays/obj/Debug/net8.0/onArrays.AssemblyInfo.cs
+/home/elisha/Desktop/C#/projects/performingOperations/onArrays/obj/Debug/net8.0/onArrays.csproj.CoreCompileInputs.cache
+/home/elisha/Desktop/C#/projects/performingOperations/onArrays/obj/Debug/net8.0/onArrays.dll
+/home/elisha/Desktop/C#/projects/performingOperations/onArrays/obj/Debug/net8.0/refint/onArrays.dll
+/home/elisha/Desktop/C#/projects/performingOperations/onArrays/obj/Debug/net8.0/onArrays.pdb
+/home/elisha/Desktop/C#/projects/performingOperations/onArrays/obj/Debug/net8.0/onArrays.genruntimeconfig.cache
+/home/elisha/Desktop/C#/projects/performingOperations/onArrays/obj/Debug/net8.0/ref/onArrays.dll
