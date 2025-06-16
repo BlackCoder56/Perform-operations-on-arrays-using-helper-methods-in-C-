@@ -45,16 +45,34 @@
 // }
 
 
-// Use the ToCharArray() to reverse a string
-string value = "abc123";
-char[] valueArray = value.ToCharArray();
-Array.Reverse(valueArray);
-// string result = new string(valueArray);
-string result = String.Join(",", valueArray);
-Console.WriteLine(result);
+// // Use the ToCharArray() to reverse a string
+// string value = "abc123";
+// char[] valueArray = value.ToCharArray();
+// Array.Reverse(valueArray);
+// // string result = new string(valueArray);
+// string result = String.Join(",", valueArray);
+// Console.WriteLine(result);
 
-string[] items = result.Split(',');
-foreach (string item in items)
+// string[] items = result.Split(',');
+// foreach (string item in items)
+// {
+//     Console.WriteLine(item);
+// }
+
+// Reverse words in a sentence
+string pangram = "The quick brown fox jumps over the lazy dog";
+
+string[] words = pangram.Split(' '); // here we get a string array with out words as array items
+
+string[] wordBox = new string[words.Length]; // initialize array to store our reversed words
+
+for (int i = 0; i < words.Length; i++) // loop through the length of word array
 {
-    Console.WriteLine(item);
+    char[] letters = words[i].ToCharArray(); // store letters in the word as char array items
+    Array.Reverse(letters); // reverse the letters
+    wordBox[i] = new string(letters); // convert the char array back into a string
 }
+
+string newPangram = String.Join(" ", wordBox); // convert the array back to string
+
+Console.WriteLine(newPangram); // print the string on the console
