@@ -30,3 +30,16 @@ foreach (var pallete in palletes)  // foreach loop printing the Array items
 {
     Console.WriteLine($"-- {pallete}");
 }
+
+Console.WriteLine("");
+Array.Resize(ref palletes, 6); // Calling the Resize method passing `pallets` array by reference using the `ref keyword. Here we resizing from 4 elements to 6
+Console.WriteLine($"Resizing 6 ... count: {palletes.Length}");
+
+// Adding the two new elements in the array
+palletes[4] = "C01"; 
+palletes[5] = "C02";
+
+foreach (var pallete in palletes)
+{
+    Console.WriteLine($"-- {pallete}");
+}

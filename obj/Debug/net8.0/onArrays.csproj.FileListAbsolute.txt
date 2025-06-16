@@ -12,3 +12,4 @@
 /home/elisha/Desktop/C#/projects/performingOperations/onArrays/obj/Debug/net8.0/onArrays.pdb
 /home/elisha/Desktop/C#/projects/performingOperations/onArrays/obj/Debug/net8.0/onArrays.genruntimeconfig.cache
 /home/elisha/Desktop/C#/projects/performingOperations/onArrays/obj/Debug/net8.0/ref/onArrays.dll
+/home/elisha/Desktop/C#/projects/performingOperations/onArrays/obj/Debug/net8.0/onArrays.sourcelink.json
