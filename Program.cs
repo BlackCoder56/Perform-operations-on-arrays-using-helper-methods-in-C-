@@ -60,19 +60,36 @@
 // }
 
 // Reverse words in a sentence
-string pangram = "The quick brown fox jumps over the lazy dog";
+// string pangram = "The quick brown fox jumps over the lazy dog";
 
-string[] words = pangram.Split(' '); // here we get a string array with out words as array items
+// string[] words = pangram.Split(' '); // here we get a string array with out words as array items
 
-string[] wordBox = new string[words.Length]; // initialize array to store our reversed words
+// string[] wordBox = new string[words.Length]; // initialize array to store our reversed words
 
-for (int i = 0; i < words.Length; i++) // loop through the length of word array
+// for (int i = 0; i < words.Length; i++) // loop through the length of word array
+// {
+//     char[] letters = words[i].ToCharArray(); // store letters in the word as char array items
+//     Array.Reverse(letters); // reverse the letters
+//     wordBox[i] = new string(letters); // convert the char array back into a string
+// }
+
+// string newPangram = String.Join(" ", wordBox); // convert the array back to string
+
+// Console.WriteLine(newPangram); // print the string on the console
+
+string orderStream = "B123,C234,A345,C15,B177,G3003,C235,B179";
+
+string[] orderArray = orderStream.Split(',');
+
+Array.Sort(orderArray);
+foreach (string order in orderArray)
 {
-    char[] letters = words[i].ToCharArray(); // store letters in the word as char array items
-    Array.Reverse(letters); // reverse the letters
-    wordBox[i] = new string(letters); // convert the char array back into a string
+    if (order.Length == 4)
+    {
+        Console.WriteLine(order);
+    }
+    else
+    {
+        Console.WriteLine($"{order}      - Error");
+    }
 }
-
-string newPangram = String.Join(" ", wordBox); // convert the array back to string
-
-Console.WriteLine(newPangram); // print the string on the console
